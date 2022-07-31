@@ -1,9 +1,8 @@
-
-
-from application.people import test_funk_people
-from application.salary import test_funk_salary
-
+from application.db.people import get_employees
+from application.salary import calculate_salary
+from datetime import datetime
 
 if __name__ == '__main__':
-    test_funk_people()
-    test_funk_salary()
+    get_employees()
+    calculate_salary()
+    print(datetime.today())

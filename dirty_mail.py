@@ -1,4 +1,4 @@
-from application.people import *
+from application.db.people import *
 
 if __name__ == '__main__':
-    test_funk_people()
+    get_employees()
